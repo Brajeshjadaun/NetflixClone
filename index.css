@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.html {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
+
+.top-header, .body-section, .faq-container{
+  border-bottom: 10px solid #232323;
+}
+
+.top-header {
+  /*vh-vieport height*/
+  height: 90vh;
+  background-image: url(./images/background.jpg);
+}
+
+.container {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.language-picker {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid #443C37;
+  border-radius: 5px;
+  height: 80%;
+  width: 120%;
+}
+
+.language {
+  position: absolute;
+  top: 0;
+  font-size: 40px !important ;
+  color: white;
+}
+.material-icons {
+  color: white;
+}
+
+.icon-language,
+.icon-dropdown {
+  position: absolute;
+  top: 3px;
+  right: 78px;
+}
+.icon-dropdown {
+  left: 104px;
+}
+
+.navbar {
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-half {
+  display: flex;
+  gap: 40px;
+}
+
+.dropdown-container {
+  position: relative;
+}
+
+.btn {
+  background-color: #c11119;
+  padding: 0px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 80%;
+}
+
+/* Header content styles*/
+.content{
+    margin: 20vh auto;
+    width: 60%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.content h1, .content p{
+    margin-top: 20px;
+
+}
+
+.content h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content p{
+    font-size: 24px;
+    font-weight: 600;
+}
+.email-container{
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    margin-top: 20px;
+}
+.email-container > input{
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid #443C37;
+    padding: 0 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.get-started-btn{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-size: 24px;
+
+}
+
+/* body-section styles*/
+.body-section{
+  display: flex;
+  align-items: center;
+  padding: 4% 100px;
+}
+
+.left-item h1, .right-item h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.left-item p, .right-item p{
+  font-size: 24px;
+}
+.right-item{
+  position: relative;
+}
+.right-item > video{
+  position: absolute;
+  left: 80px;
+  top: 20%;
+  z-index: -1;
+}
+
+.layout{
+  border: 1px solid #5A5A5A ;
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  bottom: 10%;
+  left: 23%;
+  right: 0;
+  padding-right: 40px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+  background-color: black;
+  border-radius: 20px;
+}
+.layout img{
+  width: 50px;
+  padding: 20px;
+}
+.layout p{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.layout p span{
+  color: blue;
+}
+.static-left-item{
+  position: relative;
+}
+
+.faq-container{
+  padding: 40px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.faq-container > h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.faq{
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #333232;
+  transition-duration: 0.5s;
+}
+.faq > p , .faq > span{
+  font-size: 24px;
+}
+.faq:hover{
+  background-color: #414141;
+}
+
+.faq-container > p{
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.footer-container{
+  padding: 100px;
+  color: #B3B3B3;
+}
+
+.links-container{
+  margin-bottom: 15px;
+}
+
+.links-item{
+  display: flex;
+}
+
+a{
+  color: #B3B3B3;
+  font-size: 15px
+}
+
+.list1 , .list2 , .list3 , .list4{
+  display: flex;
+  flex-direction: column;
+  padding-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-language > .dropdown-container{
+  width: 105px;
+}
+
